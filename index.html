@@ -356,8 +356,7 @@
             border: 1px solid rgba(255, 255, 255, 0.05);
             position: relative;
             overflow: hidden;
-            animation: floatCard 8s infinite ease-in-out;
-            transform: perspective(1000px) rotateY(-10deg) rotateX(10deg) rotateZ(0deg);
+            
         }
 
         @keyframes floatCard {
@@ -374,12 +373,7 @@
             position: absolute;
             width: 150%;
             height: 100px;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transform: rotate(-25deg) translateX(-50%);
-            top: -50px;
-            left: -100px;
-            animation: shimmer 5s infinite;
-            pointer-events: none;
+            
         }
 
         @keyframes shimmer {
